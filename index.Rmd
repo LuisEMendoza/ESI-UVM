@@ -1,0 +1,9 @@
+---
+title: "Universidad del Valle de México"
+---
+
+![](images/white-uvm.png)
+
+## Asignatura
+
+### __Estadística Inferencial__
