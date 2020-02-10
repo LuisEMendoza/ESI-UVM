@@ -2,7 +2,7 @@
 title: "Universidad del Valle de México"
 ---
 
-![](images/white-uvm.png)
+![](images/UVM_web.jpg)
 
 ## Asignatura
 
