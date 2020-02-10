@@ -8,8 +8,85 @@ Resolver sistemas dinámicos y discretos aplicando las funciones de Fourier, Tra
 
 ## Contenido temático
 
-UNIDAD I. Series de Fourier.
+UNIDAD I. Distribuciones muestrales.
 
-UNIDAD II. Transformada de Laplace.
+1.1. Estimación puntual.
 
-UNIDAD III. Transformada Z.
+1.1.1. Distribución muestral de $\bar x$.
+
+1.1.2. Valor esperado de $\bar x$.
+
+1.1.3. Desviación estándar de $\bar x$.
+
+1.1.4. Teorema del límite central.
+
+1.2. Valor práctico de la distribución muestral de $\bar x$.
+
+1.3. Distribución muestral de $\bar p$.
+
+1.3.1. Valor esperado de $\bar p$.
+
+1.3.2. Desviaicón estándar de $\bar p$.
+
+1.3.3. Forma de la distribución muestral de $\bar p$.
+
+1.3.4. Valor práctico de la distribución de $\bar p$.
+
+1.4. Propiedades de los estimadores puntuales.
+
+1.4.1. Insesgo.
+
+1.4.2. Eficiencia. 
+
+1.4.3. Consistencia.
+
+UNIDAD II. Estimación del intervalo de una media poblacional.
+
+2.1. Estimación del intervalo de una media poblacional: caso muestra grande.
+
+2.2. Cálculo de un estimado de intervalo : conociendo $\sigma$.
+
+2.3. Cálculo de un estimado de intervalo : sin conocer $\sigma$.
+
+2.4. Estimación del intervalo de una media poblacional: caso muestra pequeña.
+
+2.5. Determinación del tamaño de la muestra.
+
+UNIDAD III. Estimación del intervalo de una proporción poblacional.
+
+3.1. Estimación del intervalo de una proporción poblacional.
+
+3.2. Determinación del tamaño de la muestra.
+
+UNIDAD IV. Prueba de Hipótesis.
+
+4.1. Establecimiento de las hipótesis nula y alternativa.
+
+4.2. Errores tipo I y tipo II.
+
+4.3. Pruebas unilaterales sobre la media de una población: Caso de muestra grande.
+
+4.4. Pruebas bilaterales sobre la media de una población: Caso de muestra grande.
+
+4.5. Pruebas sobre la media de una población. Caso de muestra pequeña.
+
+4.6. Pruebas sobre la proporción de una población.
+
+UNIDAD V. Inferencia estadística de medias de dos poblaciones.
+
+5.1. Estimación de la diferencia entre los promedios de dos poblaciones: muestras independientes.
+
+5.2. Pruebas de hipótesis acerca de la diferencia entre las medias de dos poblaciones: muestras independientes.
+
+5.3. Inferencias acerca de la diferencia entre las medias de dos poblaciones muestras apareadas.
+
+6. Inferencia estadística de proporciones de dos poblaciones.
+
+6.1. Distribución muestral de $p_1 – p_2$.
+
+6.2. Estimado de intervalo de $p_1 – p_2$.
+
+6.3. Pruebas de hipótesis acerca de $p_1 – p_2$.
+
+
+
