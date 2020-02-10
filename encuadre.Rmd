@@ -8,7 +8,7 @@ Resolver sistemas dinámicos y discretos aplicando las funciones de Fourier, Tra
 
 ## Contenido temático
 
-UNIDAD I. Distribuciones muestrales.
+__UNIDAD I. Distribuciones muestrales.__
 
 1.1. Estimación puntual.
 
@@ -40,7 +40,7 @@ UNIDAD I. Distribuciones muestrales.
 
 1.4.3. Consistencia.
 
-UNIDAD II. Estimación del intervalo de una media poblacional.
+__UNIDAD II. Estimación del intervalo de una media poblacional.__
 
 2.1. Estimación del intervalo de una media poblacional: caso muestra grande.
 
@@ -52,13 +52,13 @@ UNIDAD II. Estimación del intervalo de una media poblacional.
 
 2.5. Determinación del tamaño de la muestra.
 
-UNIDAD III. Estimación del intervalo de una proporción poblacional.
+__UNIDAD III. Estimación del intervalo de una proporción poblacional.__
 
 3.1. Estimación del intervalo de una proporción poblacional.
 
 3.2. Determinación del tamaño de la muestra.
 
-UNIDAD IV. Prueba de Hipótesis.
+__UNIDAD IV. Prueba de Hipótesis.__
 
 4.1. Establecimiento de las hipótesis nula y alternativa.
 
@@ -72,7 +72,7 @@ UNIDAD IV. Prueba de Hipótesis.
 
 4.6. Pruebas sobre la proporción de una población.
 
-UNIDAD V. Inferencia estadística de medias de dos poblaciones.
+__UNIDAD V. Inferencia estadística de medias de dos poblaciones.__
 
 5.1. Estimación de la diferencia entre los promedios de dos poblaciones: muestras independientes.
 
@@ -80,7 +80,7 @@ UNIDAD V. Inferencia estadística de medias de dos poblaciones.
 
 5.3. Inferencias acerca de la diferencia entre las medias de dos poblaciones muestras apareadas.
 
-6. Inferencia estadística de proporciones de dos poblaciones.
+__6. Inferencia estadística de proporciones de dos poblaciones.__
 
 6.1. Distribución muestral de $p_1 – p_2$.
 
