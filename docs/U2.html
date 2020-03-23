@@ -338,7 +338,42 @@ $(document).ready(function () {
 <div id="prueba-de-hipótesis" class="section level2">
 <h2>Prueba de hipótesis</h2>
 <p>En la pasada unidad vimos cómo calcular estimaciones puntuales y por intervalo de los parámetros poblacionales. Ahora, comenzaremos abordando la forma de usar la prueba de hipótesis para determinar si una afirmación acerca del valor de un parámetro poblacional debe o no ser rechazada.</p>
-<p>Cuando se hace una prueba de hipótesis se empieza por hacer una suposición tentativa acerca del parámetro poblacional. A esta suposición tentativa se le llama hipótesis nula y se denota por <span class="math inline">\(H_0\)</span>. Después se define otra hipótesis, llamada hipótesis alternativa, que dice lo contrario de lo que establece la hipótesis nula. La hipótesis alternativa se denota <span class="math inline">\(H_a\)</span>.</p>
+<p>Cuando se hace una prueba de hipótesis se empieza por hacer una suposición tentativa acerca del parámetro poblacional. A esta suposición se le llama hipótesis nula y se denota por <span class="math inline">\(H_0\)</span>. Después se define otra hipótesis, llamada hipótesis alternativa, que dice lo contrario de lo que establece la hipótesis nula. La hipótesis alternativa se denota <span class="math inline">\(H_a\)</span>.</p>
+<div id="formulación-de-las-hipótesis" class="section level3">
+<h3>Formulación de las hipótesis</h3>
+<p>Formular las hipótesis pareciera en principio algo trivial, pero es en ese punto donde se encuentra la mayor cantidad de errores cometidos. No es tan complicado, pero sí requiere práctica. Podríamos decir a grandes rasgos, que se trata básicamente de asignar la hipótesis nula <span class="math inline">\(H_0\)</span> a la situación que nos «gustaría» que no fuera cierta. Así, la hipótesis alternativa <span class="math inline">\(H_a\)</span> representa la situación que deseamos, sea cierta. A continuación veamos tres situaciones que ameritan una prueba de hipótesis.</p>
+<div id="prueba-de-una-hipótesis-de-investigación" class="section level4">
+<h4>Prueba de una hipótesis de investigación</h4>
+<p>Considere un vehículo a gasolina que se considera de consumo económico. Los ingenieros que se encargaron de su desarrollo afirman que recorre más de 25 kilómetros por litro. Para comprobarlo, varias unidades del coche se construyen y se someten a pruebas de manejo controladas. ¿Cuál es <span class="math inline">\(H_a\)</span>?</p>
+<p>En este caso, los desarrolladores son los interesados en comprobar que el coche sí tiene un mejor consumo de combustible (es decir, que <span class="math inline">\(\mu &gt;25\)</span>), y son ellos los que están realizando las pruebas. Por lo tanto, podemos definir la <span class="math inline">\(H_a\)</span> que vaya de acuerdo a la afirmación de que recorre más kilómetros por litro. Por el contrario, la <span class="math inline">\(H_0\)</span> tiene que afirmar el caso opuesto, que el coche <em>no</em> recorre más de 25 kilómetros por litro. Ambas quedarían definidas así:</p>
+<p><span class="math display">\[
+H_0: \mu \leq25\\
+H_a: \mu &gt;25
+\]</span></p>
+<p>Si los resultados obtenidos con las pruebas realizadas a los coches- muestra indican que no se puede rechazar <span class="math inline">\(H_0\)</span>, los investigadores no podrán concluir que el nuevo coche sea más eficiente. Pero si los resultados muestrales indican que se puede rechazar <span class="math inline">\(H_0\)</span>, se puede inferir que <span class="math inline">\(H_a: \mu &gt; 25\)</span> es verdad. Esta conclusión proporciona a los investigadores el apoyo estadístico necesario para afirmar que el nuevo vehículo cuenta con un mejor rendimiento medio en kilómetros por litro.</p>
+<p>En estudios de investigación como este, las hipótesis nula y alternativa deben formularse de manera que al rechazar <span class="math inline">\(H_0\)</span> se apoye la conclusión de la investigación. La hipótesis de la investigación, entonces, debe expresarse como hipótesis alternativa.</p>
+</div>
+<div id="prueba-de-la-validez-de-una-afirmación" class="section level4">
+<h4>Prueba de la validez de una afirmación</h4>
+<p>Para hablar sobre la prueba de la validez de una afirmación, consideraremos una situación en la que un fabricante de café asegura que todos los frascos de 100 gramos contienen en promedio, por lo menos, 97.6 gramos de producto. Sabemos que por la naturaleza de los procesos de envasado, no se asegura que todos los envases de un producto contengan exactamente el peso que afirman, ya que tienen una desviación tanto hacia arriba como hacia abajo, equilibrando los contenidos, por así decirlo.</p>
+<p>Se selecciona una muestra de envases y se mide su contenido para confirmar lo que asegura el fabricante. En este tipo de situaciones de prueba de hipótesis, nosotros queremos probar que el fabricante no dice la verdad, ya que revisaremos sus contenidos, por lo tanto dejaremos la formulación de las hipótesis como sigue:</p>
+<p><span class="math display">\[
+H_0: \mu \geq 97.6 \\
+H_a: \mu &lt; 97.6
+\]</span></p>
+<p>Si los resultados muestrales indican que no se puede rechazar <span class="math inline">\(H_0\)</span>, entonces no se cuestiona lo que asegura el fabricante. Pero si los resultados muestrales indican que se puede rechazar <span class="math inline">\(H_0\)</span>, lo que se inferirá es que <span class="math inline">\(H_a: μ &lt; 67.6\)</span> es verdad. Si tal es la conclusión, las evidencias estadísticas indican que el dicho del fabricante no es correcto y que los envases de café contienen en promedio menos de los 97.6 gramos que se asegura contienen. Se considerará realizar las acciones correspondientes en contra del fabricante.</p>
+</div>
+<div id="prueba-de-hipótesis-en-toma-de-decisiones" class="section level4">
+<h4>Prueba de hipótesis en toma de decisiones</h4>
+<p>Cuando se prueba una hipótesis de investigación o la validez de una afirmación, se toman medidas si se rechaza <span class="math inline">\(H_0\)</span>; sin embargo, en algunas situaciones se toman tanto si no se puede rechazar como si se puede rechazar <span class="math inline">\(H_0\)</span>. En general, este tipo de situaciones se presentan cuando la persona que debe tomar una decisión tiene que elegir entre dos líneas de acción, una relacionada con la hipótesis nula y otra con la hipótesis alternativa.</p>
+<p>Un buen ejemplo de esta situación sería el Control de Calidad. Supongamos que, con base en una muestra de las piezas de un pedido recibido, el inspector de control de calidad tiene que decidir si acepta el pedido o si lo regresa al proveedor debido a que no satisface las especificaciones. La especificación para unas piezas determinadas menciona que su longitud media deba ser de dos pulgadas. Si la longitud media es menor o mayor a dos pulgadas, las piezas ocasionarán problemas de calidad en la operación de ensamblado. En este caso, las hipótesis nula y alternativa se formulan como sigue:</p>
+<p><span class="math display">\[
+H_0: \mu =2 \\
+H_a: \mu \neq 2
+\]</span></p>
+<p>Si los resultados muestrales indican que no se puede rechazar <span class="math inline">\(H_0\)</span>, el inspector de control de calidad no tendrá razón para dudar que el pedido satisfaga las especificaciones y aceptará el pedido. Pero si los resultados muestrales indican que <span class="math inline">\(H_0\)</span> se debe rechazar, se concluirá que las piezas no satisfacen las especificaciones. En este caso, el inspector de control de calidad tendrá evidencias suficientes para regresar el pedido al proveedor. Así, se ve que en este tipo de situaciones, se toman medidas en ambos casos, cuando <span class="math inline">\(H_0\)</span> no se puede rechazar y cuando <span class="math inline">\(H_0\)</span> se puede rechazar.</p>
+</div>
+</div>
 </div>
 
 
