@@ -1,0 +1,11 @@
+---
+title: "Unidad 2"
+output: html_document
+---
+
+
+## Prueba de hipótesis
+
+En la pasada unidad vimos cómo calcular estimaciones puntuales y por intervalo de los parámetros poblacionales. Ahora, comenzaremos abordando la forma de usar la prueba de hipótesis para determinar si una afirmación acerca del valor de un parámetro poblacional debe o no ser rechazada.
+
+Cuando se hace una prueba de hipótesis se empieza por hacer una suposición tentativa acerca del parámetro poblacional. A esta suposición tentativa se le llama hipótesis nula y se denota por $H_0$. Después se define otra hipótesis, llamada hipótesis alternativa, que  dice lo contrario de lo que establece la hipótesis nula. La hipótesis alternativa se denota $H_a$.
